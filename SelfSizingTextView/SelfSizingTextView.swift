@@ -51,12 +51,7 @@ private extension UITextView {
         storage.addLayoutManager(manager)
         container.lineFragmentPadding = textContainer.lineFragmentPadding
         container.lineBreakMode = textContainer.lineBreakMode
-        let _ = manager.glyphRange(for: container)
-//        var lastRect: CGRect?
-//        manager.enumerateLineFragments(forGlyphRange: range) { (rect, _, _, _, _) in
-//            print("Rect: \(rect)")
-//            lastRect = rect
-//        }
+        _ = manager.glyphRange(for: container)
         let usedHeight = manager.usedRect(for: container).height
         return ceil(usedHeight + textContainerInset.vertical)
     }

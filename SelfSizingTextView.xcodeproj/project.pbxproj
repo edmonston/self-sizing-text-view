@@ -12,19 +12,8 @@
 		D0E691F81EAD21D30015633C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E691F61EAD21D30015633C /* Main.storyboard */; };
 		D0E691FA1EAD21D30015633C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E691F91EAD21D30015633C /* Assets.xcassets */; };
 		D0E691FD1EAD21D30015633C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E691FB1EAD21D30015633C /* LaunchScreen.storyboard */; };
-		D0E692081EAD21D40015633C /* SelfSizingTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E692071EAD21D40015633C /* SelfSizingTextViewTests.swift */; };
 		D0E692131EAD21EE0015633C /* SelfSizingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E692121EAD21EE0015633C /* SelfSizingTextView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0E692041EAD21D30015633C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0E691E71EAD21D30015633C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0E691EE1EAD21D30015633C;
-			remoteInfo = SelfSizingTextView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0E691EF1EAD21D30015633C /* SelfSizingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,21 +23,11 @@
 		D0E691F91EAD21D30015633C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E691FC1EAD21D30015633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E691FE1EAD21D30015633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0E692031EAD21D30015633C /* SelfSizingTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E692071EAD21D40015633C /* SelfSizingTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTextViewTests.swift; sourceTree = "<group>"; };
-		D0E692091EAD21D40015633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E692121EAD21EE0015633C /* SelfSizingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizingTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D0E691EC1EAD21D30015633C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E692001EAD21D30015633C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D0E691F11EAD21D30015633C /* SelfSizingTextView */,
-				D0E692061EAD21D40015633C /* SelfSizingTextViewTests */,
 				D0E691F01EAD21D30015633C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				D0E691EF1EAD21D30015633C /* SelfSizingTextView.app */,
-				D0E692031EAD21D30015633C /* SelfSizingTextViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,15 +65,6 @@
 				D0E691FE1EAD21D30015633C /* Info.plist */,
 			);
 			path = SelfSizingTextView;
-			sourceTree = "<group>";
-		};
-		D0E692061EAD21D40015633C /* SelfSizingTextViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0E692071EAD21D40015633C /* SelfSizingTextViewTests.swift */,
-				D0E692091EAD21D40015633C /* Info.plist */,
-			);
-			path = SelfSizingTextViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,24 +87,6 @@
 			productReference = D0E691EF1EAD21D30015633C /* SelfSizingTextView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0E692021EAD21D30015633C /* SelfSizingTextViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0E6920F1EAD21D40015633C /* Build configuration list for PBXNativeTarget "SelfSizingTextViewTests" */;
-			buildPhases = (
-				D0E691FF1EAD21D30015633C /* Sources */,
-				D0E692001EAD21D30015633C /* Frameworks */,
-				D0E692011EAD21D30015633C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0E692051EAD21D30015633C /* PBXTargetDependency */,
-			);
-			name = SelfSizingTextViewTests;
-			productName = SelfSizingTextViewTests;
-			productReference = D0E692031EAD21D30015633C /* SelfSizingTextViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,11 +100,6 @@
 					D0E691EE1EAD21D30015633C = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
-					};
-					D0E692021EAD21D30015633C = {
-						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = D0E691EE1EAD21D30015633C;
 					};
 				};
 			};
@@ -172,7 +117,6 @@
 			projectRoot = "";
 			targets = (
 				D0E691EE1EAD21D30015633C /* SelfSizingTextView */,
-				D0E692021EAD21D30015633C /* SelfSizingTextViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,13 +129,6 @@
 				D0E691FD1EAD21D30015633C /* LaunchScreen.storyboard in Resources */,
 				D0E691FA1EAD21D30015633C /* Assets.xcassets in Resources */,
 				D0E691F81EAD21D30015633C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E692011EAD21D30015633C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0E691FF1EAD21D30015633C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E692081EAD21D40015633C /* SelfSizingTextViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0E692051EAD21D30015633C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0E691EE1EAD21D30015633C /* SelfSizingTextView */;
-			targetProxy = D0E692041EAD21D30015633C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D0E691F61EAD21D30015633C /* Main.storyboard */ = {
@@ -363,34 +284,6 @@
 			};
 			name = Release;
 		};
-		D0E692101EAD21D40015633C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SelfSizingTextViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Edmonston.SelfSizingTextViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizingTextView.app/SelfSizingTextView";
-			};
-			name = Debug;
-		};
-		D0E692111EAD21D40015633C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SelfSizingTextViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Edmonston.SelfSizingTextViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizingTextView.app/SelfSizingTextView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +303,7 @@
 				D0E6920E1EAD21D40015633C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D0E6920F1EAD21D40015633C /* Build configuration list for PBXNativeTarget "SelfSizingTextViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0E692101EAD21D40015633C /* Debug */,
-				D0E692111EAD21D40015633C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
