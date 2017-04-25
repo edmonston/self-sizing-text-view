@@ -8,3 +8,8 @@ In some cases, it is preferable to allow the `UITextView` to expand to its natur
 This implementation of `SelfSizingTextView` computes an intrinsic content size based on its width, whether or not scrolling is enabled. If you install a vertical constraint that caps its height and set `isScrollingEnabled` to `true`, it will take as much space as it needs, subject to the height constraint, allowing scrolling only if the text needs more room.
 
 Includes a simple demo app showing the behavior with short and long text, and with and without scrolling and/or constraints.
+
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/885428/25364470/c73c666c-2930-11e7-9d06-ecfb7a7736a0.png" width=335 />
+</p>
+
