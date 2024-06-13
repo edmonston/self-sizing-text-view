@@ -1,7 +1,7 @@
 # SelfSizingTextView
 ### A simple UITextView subclass that computes its intrinsic content size
 
-When scrolling is enabled on a `UITextView`, it has no intrinsic content size and so, in the absence of height constraints, it will collapse to zero height. When scrolling is enabled, it does have an intrinsic content size--but this size doesn't depend on the width and so isn't generally useful for width-constrained text.
+When scrolling is enabled on a `UITextView`, it has no intrinsic content size and so, in the absence of height constraints, it will collapse to zero height. When scrolling is disabled, it does have an intrinsic content size--but this size doesn't depend on the width and so isn't generally useful for width-constrained text.
 
 In some cases, it is preferable to allow the `UITextView` to expand to its natural height, subject to a maximum height limit, with scrolling enabled only when the text's size requires it. 
 
